@@ -24,6 +24,8 @@ def SaveBiomeToCSV(name):
         w.writeheader()
         w.writerow(biomes)
 
+def PlaceTree(x, y, Biomeliste ) :
+    for biome in Biomeliste :
 
 def GenerateWorld(heightMap: Image):
     """
